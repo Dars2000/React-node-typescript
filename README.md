@@ -76,7 +76,7 @@
         
   <h3>Clonar el Repositorio</h3>
         <p>Clona este repositorio en tu máquina local utilizando el siguiente comando:</p>
-        <pre><code>git clone https://github.com/Dars2000/Project-react.git</code></pre>
+        <pre><code>git clone https://github.com/Dars2000/React-node-typescript.git</code></pre>
         
    <h3>Configuración del Backend</h3>
         <ol>
