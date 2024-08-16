@@ -1,46 +1,58 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <div class="container">
+        <h1>Frontend del Proyecto de Aplicación Web</h1>
+        <p>Este documento describe la configuración, instalación y uso del frontend del proyecto de aplicación web desarrollado por <strong>Diego Robertis</strong>.</p>
+        
+  <h2>Descripción</h2>
+        <p>El frontend de esta aplicación web está desarrollado utilizando React y proporciona una interfaz de usuario interactiva y amigable. Las principales funcionalidades del frontend incluyen:</p>
+        <ul>
+            <li>Visualización de una lista paginada de items.</li>
+            <li>Búsqueda en tiempo real de items por nombre o descripción.</li>
+            <li>Formulario para agregar nuevos items a la lista.</li>
+            <li>Opciones para editar y eliminar items existentes.</li>
+            <li>Navegación intuitiva a través de diferentes páginas de la aplicación.</li>
+        </ul>      
+  <h2>Tecnologías Utilizadas</h2>
+        <ul>
+            <li><strong>React</strong>: Biblioteca para construir interfaces de usuario.</li>
+            <li><strong>Axios</strong>: Cliente HTTP para realizar peticiones al backend.</li>
+            <li><strong>Tailwind CSS</strong>: Framework CSS para estilizar la aplicación.</li>
+            <li><strong>TypeScript</strong>: Lenguaje de programación que añade tipos estáticos a JavaScript.</li>
+        </ul>
+  <h2>Instalación</h2>
+        <ol>
+            <li>Clona el repositorio del proyecto y navega al directorio del frontend:</li>
+            <pre><code>cd /Frontend</code></pre>
+            <li>Instala las dependencias del proyecto utilizando npm:</li>
+            <pre><code>npm install</code></pre>
+            <li>Inicia la aplicación frontend:</li>
+            <pre><code>npm start</code></pre>
+        </ol>
+  <h2>Uso</h2>
+        <p>Una vez iniciada la aplicación, puedes acceder a ella desde tu navegador en la dirección <code>http://localhost:3000</code>. Desde la interfaz de usuario, puedes:</p>
+        <ul>
+            <li>Ver una lista paginada de items.</li>
+            <li>Buscar items por nombre o descripción utilizando la barra de búsqueda.</li>
+            <li>Añadir nuevos items a la lista.</li>
+            <li>Editar los detalles de items existentes.</li>
+            <li>Eliminar items de la lista.</li>
+            <li>Navegar entre las diferentes páginas de la aplicación.</li>
+        </ul>
+        <h2>Componentes Principales</h2>
+        <p>El frontend se compone de varios componentes React que facilitan la organización y reutilización del código. Algunos de los componentes principales incluyen:</p>
+        <ul>
+            <li><strong>ItemList</strong>: Muestra la lista de items con opciones para editar y eliminar.</li>
+            <li><strong>ItemForm</strong>: Formulario para agregar o editar items.</li>
+            <li><strong>HomePage</strong>: Página principal que contiene el listado de items y la barra de búsqueda.</li>
+            <li><strong>AddItemPage</strong>: Página para agregar nuevos items.</li>
+        </ul>
+        <h2>Licencia</h2>
+        <p>Este proyecto está licenciado bajo la <a href="LICENSE">MIT License</a>.</p>
+        <h2>Autor</h2>
+        <p>Elaborado por <strong>Diego Robertis</strong>.</p>
+        <p><em>Gracias por utilizar esta aplicación. Si tienes alguna pregunta o comentario, no dudes en contactar conmigo.</em></p>
+    </div>
+</body>
+</html>
